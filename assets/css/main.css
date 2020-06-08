@@ -4220,7 +4220,8 @@
 		#main > header {
 			padding: 4em 0 2em 0 ;
 			text-align: center;
-			background-color: #eeeeee;
+			background-image: url("images/pic08.jpg");
+/*			background-color: #eeeeee; */
 		}
 
 			#main > header .logo {
