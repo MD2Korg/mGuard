@@ -1,37 +1,242 @@
+<!DOCTYPE HTML>
+<!--
+	Elemental by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
 <html>
-  <body>
-    <div style="text-align:center; margin-bottom: 0px;"><h1>mGuard</h1></div>
-    <div style="text-align:center; margin-top: 0px;"><p style="font-size: 0.8em;">full website coming soon</p></div>
+	<head>
+		<title>mGuard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
 
-    <div style="margin-left: 20px; margin-right: 20px;">
 
-    <p>The mGuard project aims to address two major data access challenges encountered by the NIH Center of Excellence for Mobile Sensor Data-to-Knowledge (<a href="https://md2k.org">MD2K</a>) in its pursuit to share mobile health (mHealth) data among researchers who investigate a wide range of health and wellness issues. First, because wearable sensor data may expose privacy-sensitive information about a user, they should be accessed only by authorized users; currently this access control is largely handled manually, incurring high overhead and subject to human errors. Second, to enable real-time intervention for certain medical conditions, researchers need to retrieve and process the sensor data in real-time, which is not supported at this time.</p>
+		<!-- Header -->
+		<div id="header" class="alt">
+			<a class="logo" href="index.html"><strong>mGuard</strong></a>
+			<nav id="nav">
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
 
-    <p>mGuard tackles the above challenges by utilizing the results from the NSF-supported Named Data Networking (NDN) initiative, in particular the solutions that automate the cryptographic key management for data access control (name-based access control, or NAC) and the solutions that enable real-time synchronization among distributed datasets (NDN Sync). First, mGuard utilizes and extends NDN NAC to automate fine-grained access control of confidential data to authorized researchers.  Second, it utilizes NDN Sync to provide real-time data production notification; based on this, it enables applications to publish and subscribe to data in real time by directly using MD2K data names. These new capabilities will be deployed in the MD2K cyberinfrastructure.</p>
+<!-- ORIGINAL HEADER
 
-    <p>This effort enables the MD2K center to share its data securely and in real time with a large number of mHealth researchers. The transformative potential of mGuard thus extends across many types of digital interventions and many health domains. mGuard also encourages researchers in other areas of data-intensive applications to explore NDN’s data-centric solutions. To train the next generation, mGuard is creating undergraduate and graduate education materials including concrete examples and hands-on exercises, as well as training and outreach activities through online seminars, conference tutorials, mHealth training institute, and summer camps.  </p>
+			<div id="header" class="alt">
+				<a class="logo" href="index.html"><strong>mGuard</strong></a>
+				<nav id="nav">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Dropdown</a>
+							<ul>
+								<li><a href="#">Link One</a></li>
+								<li><a href="#">Link Two</a></li>
+								<li><a href="#">Link Three</a></li>
+								<li>
+									<a href="#">Submenu</a>
+									<ul>
+										<li><a href="#">Link One</a></li>
+										<li><a href="#">Link Two</a></li>
+										<li><a href="#">Link Three</a></li>
+										<li><a href="#">Link Four</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Link Five</a></li>
+							</ul>
+						</li>
+						<li><a href="generic.html">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav>
+			</div>
+-->
 
-    <p>The mGuard project website is <a href="https://mguard.md2k.org">https://mguard.md2k.org</a> (full website coming soon).  Published papers are maintained through the mGuard website, <a href="https://named-data.net/">NDN website</a>, <a href="https://md2k.org">MD2K website</a>, and publishers’ websites.  All of the software produced by the project is maintained in the <a href="https://github.com/named-data">NDN GitHub</a> and <a href="https://mhealth.md2k.org">mHealthHUB</a>.   Curriculum materials, program documentations, and user manuals are maintained on the mGuard project website. The trace data, simulation code, and evaluation results will be maintained on mGuard internal servers for a period of at least 10 years. Investigators will archive data, samples, and other research products, and preserve access to them at least five years beyond the project’s end date, subject to resource availability.</p>
 
-    </div>
+		<!-- Main -->
+			<div id="main">
 
-    <div style="text-align:center; margin-bottom: 0px;"><h3 style="margin-top: 100px;">Principal Investigators</h3></div>
+				<!-- Header -->
+					<header style="background: #eeeeee url(https://mguard.md2k.org/images/pic08doubledark.jpg) 100% 100% no-repeat;">
+						<!--  <span class="logo"></span> -->
+						<h1 style="font-size: 4em;"><strong><span style="color: #e09476;"> — <span style="text-shadow: 1px 1px #333333;">mGuard</span> —</span></strong></h1>
+					</header>
 
-    <div style="margin-left: 20px; margin-right: 20px;">
-    <p><strong><a href="http://www.cs.memphis.edu/~lanwang/">Lan Wang</a></strong> - University of Memphis - Lead PI</p>
-    <p><strong><a href="https://md2k.org/santosh">Santosh Kumar</a></strong> - University of Memphis - Co-PI</p>
-    <p><strong><a href="http://web.cs.ucla.edu/~lixia/">Lixia Zhang</a></strong> - University of California, Los Angeles - Co-PI</p>
-    </div>
+				<!-- Banner -->
+					<section class="banner">
+						<h2>A Secure Real-Time Data Distribution System<br />
+						with Fine-Grained Access Control for mHealth Research</h2>
+						<ul class="actions">
+							<li><a href="#more" class="button">Learn More</a></li>
+						</ul>
+					</section>
 
-    <div style="text-align:center;">
-      <p style="margin-top: 100px; font-size: 0.9em;">MD2K’s mHealth Data Collection and Distribution Process</p>
-      <img src="images/dataCollection_Figure1.jpg" alt="" style="width: 90%;">
-    </div>
+				<!-- One -->
+					<section id="one" class="wrapper spotlight">
+						<div class="content">
+							<div class="inner">
+								<h2><strong>Overview</strong></h2>
+								<p><strong>mGuard</strong> offers solutions for mobile health research that automate cryptographic key management for data access control and enable real-time synchronization among distributed datasets.</p>
+								<ul class="actions">
+									<li><a href="about.html" class="button">Learn More</a></li>
+								</ul>
+							</div>
+						</div>
+						<ul class="grid-icons">
+							<li>
+								<div class="inner">
+									<span class="icon fa-lock major"></span>
+									<h3>Automated Access Control</h3>
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									<span class="icon fa-clock-o major"></span>
+									<h3>Real-Time Synchronization</h3>
+								</div>
+							</li>
+						<!--	<li>
+								<div class="inner">
+									<span class="icon fa-signal major"></span>
+									<h3>Felis aliquam</h3>
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									<span class="icon fa-check major"></span>
+									<h3>Dui volutpat</h3>
+								</div>
+							</li>
+						-->
+						</ul>
+					</section>
 
-    <div style="text-align:center;">
-      <p style="margin-top: 100px; font-size: 0.9em;">System Diagram and Data Flow <br />(mGuard components shown in dashed rectangles, and the existing MD2K components in solid shaded rectangles.)</p>
-      <img src="images/dataFlow_Figure5.jpg" alt="" style="width: 80%;">
-    </div>
+				<!-- Two -->
+					<section id="two" class="wrapper style1 spotlight alt">
+						<a id="more"></a>
+						<div class="content">
+							<div class="inner">
+								<h2>Automated Access Control</h2>
+								<p>To preserve user privacy in mHealth, wearable sensor data should be accessed only by authorized users. Currently this access control is largely handled manually, incurring high overhead and subject to human errors. mGuard works to develop innovative mechanisms for the specification and automated enforcement of sophisticated access
+									control policies and improve existing API capabilities to support a broader range of applications. </p>
+						<!--
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+						-->
+							</div>
+						</div>
+						<div class="image">
+							<img src="images/accessControl.jpg" data-position="30% 30%" alt="" />
+						</div>
+					</section>
 
-  </body>
+				<!-- Three -->
+					<section id="three" class="wrapper style2 spotlight">
+						<div class="content">
+							<div class="inner">
+								<h2>Real-Time Synchronization</h2>
+								<p>To enable real-time intervention for certain medical conditions, researchers need to retrieve and process sensor data in real-time. mGuard offers solutions that enable real-time synchronization among distributed datasets to share data securely and in real time with a large number of mHealth researchers.</p>
+								<!--
+										<ul class="actions">
+											<li><a href="#" class="button">Learn More</a></li>
+										</ul>
+								-->
+							</div>
+						</div>
+						<div class="image">
+							<img src="images/realTime.jpg" data-position="center right" alt="" />
+						</div>
+					</section>
+
+				<!-- Four
+					<section id="four" class="wrapper style3 spotlight alt">
+						<div class="content">
+							<div class="inner">
+								<h2>Quis adipiscing</h2>
+								<p>Praesent dapibus, neque id cursus faucibus, tortor neque ege tas augue, eu vulputate magna eros eu erat. Aliquam erat et volutpat. Nam dui mi, tincidunt quis, accumsan porttitor tempus.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="image">
+							<img src="images/pic04.jpg" data-position="top right" alt="" />
+						</div>
+					</section>
+				-->
+
+				<!-- Five -->
+					<section id="five" class="wrapper special">
+						<h2><strong>Meet Our Team</strong></h2>
+						<h3>Principal Investigators</h3>
+						<ul class="faces">
+							<li>
+								<span class="image"><a href="http://www.cs.memphis.edu/~lanwang/" target="_blank"><img src="images/Wang.jpg" alt="" /></a></span>
+								<a href="http://www.cs.memphis.edu/~lanwang/" target="_blank"><h3>Dr. Lan Wang</h3></a>
+								<p><strong>Lead PI</strong><br />University of Memphis</p>
+							</li>
+							<li>
+								<span class="image"><a href="https://md2k.org/santosh" target="_blank"><img src="images/Kumar.png" alt="" /></a></span>
+								<a href="https://md2k.org/santosh" target="_blank"><h3>Dr. Santosh Kumar</h3></a>
+								<p><strong>Co-PI</strong><br />University of Memphis</p>
+							</li>
+							<li>
+								<span class="image"><a href="http://web.cs.ucla.edu/~lixia/" target="_blank"><img src="images/Zhang.jpg" alt="" /></a></span>
+								<a href="http://web.cs.ucla.edu/~lixia/" target="_blank"><h3>Dr. Lixia Zhang</h3></a>
+								<p><strong>Co-PI</strong><br />University of California, Los Angeles</p>
+							</li>
+						</ul>
+						<ul class="actions">
+							<li><a href="team.html" class="button">Meet the Team</a></li>
+						</ul>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<a id="contact"></a>
+				<h2>Contact Us</h2>
+				<ul class="major-icons">
+					<li>
+						<h3 class="icon fa-phone major"><span class="label">Phone</span></h3>
+						<p>901-678-1493</p>
+					</li>
+					<li>
+						<h3 class="icon fa-map major"><span class="label">Address</span></h3>
+						<p style="margin-left: 10px; margin-right:10px;">FedEx Institute of Technology, Suite 335<br />
+							University of Memphis<br />
+							365 Innovation Drive<br />
+							Memphis, TN 38152</p>
+					</li>
+					<li>
+						<h3 class="icon fa-envelope major"><span class="label">Email</span></h3>
+						<p><a href="mailto:mguard@md2k.org">mguard@md2k.org</a></p>
+					</li>
+				</ul>
+
+				<p class="copyright">&copy; MD2K. All rights reserved.</p>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
